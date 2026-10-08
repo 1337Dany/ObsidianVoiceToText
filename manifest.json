@@ -1,0 +1,9 @@
+{
+  "id": "voice-scribe",
+  "name": "Voice Scribe",
+  "version": "1.2.0",
+  "minAppVersion": "1.4.0",
+  "description": "Голосовой помощник: записывает речь, расшифровывает её и с помощью LLM превращает в аккуратные заметки.",
+  "author": "You",
+  "isDesktopOnly": false
+}

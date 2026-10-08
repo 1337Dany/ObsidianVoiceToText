@@ -1,0 +1,33 @@
+.voice-scribe-status {
+  font-variant-numeric: tabular-nums;
+}
+
+.voice-scribe-status.is-idle {
+  display: none;
+}
+
+.voice-scribe-status.is-recording {
+  color: var(--text-error);
+  font-weight: 600;
+}
+
+.clickable-icon.voice-scribe-recording,
+.side-dock-ribbon-action.voice-scribe-recording {
+  color: var(--text-error);
+  animation: voice-scribe-pulse 1.2s ease-in-out infinite;
+}
+
+@keyframes voice-scribe-pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.45;
+  }
+}
+
+.voice-scribe-textarea {
+  width: 100%;
+  min-width: 260px;
+}
